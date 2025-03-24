@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>DMS User Load</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1601061_dms_user_load</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 03:30:31</sys_created_on>
+        <sys_id>d6811b42c35022105d629702b401313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DMS User Load</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_update_name>sys_transform_map_d6811b42c35022105d629702b401313b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 03:30:31</sys_updated_on>
+        <target_table>sys_user</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</application>
+        <file_path/>
+        <instance_id>fdb670c4eb2d5e14c040fddacad0cd28</instance_id>
+        <instance_name>dev289809</instance_name>
+        <name>sys_transform_map_d6811b42c35022105d629702b401313b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;DMS User Load&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_1601061_dms_user_load&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-17 03:30:31&lt;/sys_created_on&gt;&lt;sys_id&gt;d6811b42c35022105d629702b401313b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DMS User Load&lt;/sys_name&gt;&lt;sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms"&gt;345a53edc39022105d629702b40131bc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Deals Management Service (DMS)"&gt;345a53edc39022105d629702b40131bc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_d6811b42c35022105d629702b401313b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-17 03:30:31&lt;/sys_updated_on&gt;&lt;target_table&gt;sys_user&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1152061520</payload_hash>
+        <record_name>DMS User Load</record_name>
+        <reverted_from/>
+        <source>055a53edc39022105d629702b40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 03:30:31</sys_created_on>
+        <sys_id>98e19f42c35022105d629702b40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195a2272c880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 03:30:31</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>9ce19f424e502210b70e2da12c8a1dda</update_guid>
+        <update_guid_history>9ce19f424e502210b70e2da12c8a1dda:-1152061520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 03:40:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>189e8c64ba59419b8ef25c59e9913a11</sys_id>
+        <sys_metadata>d6811b42c35022105d629702b401313b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DMS User Load</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_scope_delete display_value="">1188c08f6cd2437592fc5931da7bbde9</sys_scope_delete>
+        <sys_update_name>sys_transform_map_d6811b42c35022105d629702b401313b</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_d6811b42c35022105d629702b401313b">98e19f42c35022105d629702b40131db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 03:40:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Has access to service fulfillment records, tasks, and SLAs related to deals.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1601061_dms.service_team</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>service_team</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 03:53:04</sys_created_on>
+        <sys_id>715d82b9c31062105d629702b401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1601061_dms.service_team</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_update_name>sys_user_role_715d82b9c31062105d629702b401314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 03:53:04</sys_updated_on>
+    </sys_user_role>
+</record_update>

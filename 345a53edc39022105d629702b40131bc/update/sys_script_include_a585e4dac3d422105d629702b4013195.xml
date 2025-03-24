@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1601061_dms.DealFulfillment</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>DealFulfillment</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var DealFulfillment = Class.create();
+DealFulfillment.prototype = {
+    initialize: function() {
+    },
+	_attachDealFile: function(DealJson, DealIdentifier) {
+        var filename;
+        var attachfile = new GlideSysAttachment();
+        var attachref = new GlideRecord('x_1601061_dms_deal');
+		attachref.get('deal_id', DealIdentifier);
+		filename = DealIdentifier + '_' + '.json';
+        fileId1 = attachfile.write(
+            attachref,
+            filename,
+            'application/json',
+            DealJson
+        );
+    },
+    type: 'DealFulfillment'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 09:41:31</sys_created_on>
+        <sys_id>a585e4dac3d422105d629702b4013195</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DealFulfillment</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_update_name>sys_script_include_a585e4dac3d422105d629702b4013195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 10:04:38</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a585e4dac3d422105d629702b4013195</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 09:41:30</sys_created_on>
+        <sys_id>b6c66c16c3d422105d629702b401310a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 09:41:30</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

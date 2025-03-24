@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-15 17:02:40</sys_created_on>
+        <sys_id>e998f365c35422105d629702b401311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1601061_dms_32.x_1601061_dms.service_fulfillment_user</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_security_acl display_value="x_1601061_dms_32">6598f365c35422105d629702b4013118</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e998f365c35422105d629702b401311c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-15 17:02:40</sys_updated_on>
+        <sys_user_role display_value="x_1601061_dms.service_fulfillment_user" name="x_1601061_dms.service_fulfillment_user">9998f7e9c31422105d629702b4013197</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</application>
+        <file_path/>
+        <instance_id>fdb670c4eb2d5e14c040fddacad0cd28</instance_id>
+        <instance_name>dev289809</instance_name>
+        <name>sys_security_acl_role_e998f365c35422105d629702b401311c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-15 17:02:40</sys_created_on><sys_id>e998f365c35422105d629702b401311c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1601061_dms_32.x_1601061_dms.service_fulfillment_user</sys_name><sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package><sys_policy/><sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope><sys_security_acl display_value="x_1601061_dms_32">6598f365c35422105d629702b4013118</sys_security_acl><sys_update_name>sys_security_acl_role_e998f365c35422105d629702b401311c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-15 17:02:40</sys_updated_on><sys_user_role display_value="x_1601061_dms.service_fulfillment_user" name="x_1601061_dms.service_fulfillment_user">9998f7e9c31422105d629702b4013197</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-744627176</payload_hash>
+        <record_name>x_1601061_dms_32.x_1601061_dms.service_fulfillment_user</record_name>
+        <reverted_from/>
+        <source>055a53edc39022105d629702b40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-15 17:02:40</sys_created_on>
+        <sys_id>a198f365c35422105d629702b401312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1959ac202260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-15 17:02:40</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6598f365d2542210899cb72dc4762a2c</update_guid>
+        <update_guid_history>6598f365d2542210899cb72dc4762a2c:-744627176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1601061_dms_32.x_1601061_dms.service_fulfillment_user">d469c7c6c31022105d629702b4013134</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 02:53:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>07c5ffbf71c748608ffae70c006c6440</sys_id>
+        <sys_metadata>e998f365c35422105d629702b401311c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1601061_dms_32.x_1601061_dms.service_fulfillment_user</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_parent display_value="">6598f365c35422105d629702b4013118</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_scope_delete display_value="">1188c08f6cd2437592fc5931da7bbde9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e998f365c35422105d629702b401311c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e998f365c35422105d629702b401311c">a198f365c35422105d629702b401312d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 02:53:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

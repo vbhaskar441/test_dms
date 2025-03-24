@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="755d9ba1c3d022105d629702b401314e" label="Contract" max_length="40" name="x_1601061_dms_contract" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Contract Terms" max_length="40" name="contract_terms" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Signed By" max_length="32" name="signed_by" reference="sys_user" type="reference"/>
+        <element label="Contract ID" max_length="32" name="contract_id" type="string"/>
+        <element label="Deal ID" max_length="32" name="deal_id" reference="x_1601061_dms_deal" type="reference"/>
+        <element label="Total Value" max_length="20" name="total_value" type="currency"/>
+        <element label="SLAs" max_length="32" name="slas" reference="sla" type="reference"/>
+        <index name="index">
+            <element name="deal_id"/>
+        </index>
+        <index name="index2">
+            <element name="signed_by"/>
+        </index>
+        <index name="index3">
+            <element name="slas"/>
+        </index>
+    </element>
+</database>

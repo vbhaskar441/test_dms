@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1d2d1ba1c3d022105d629702b401319b" label="Deal" max_length="40" name="x_1601061_dms_deal" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Expected Close Date" mandatory="true" max_length="40" name="expected_close_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Customer" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assigned Team" max_length="32" name="assigned_team" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Deal Type" mandatory="true" max_length="40" name="deal_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Upsell" value="upsell"/>
+                <element inactive_on_update="false" label="Renewal" value="renewal"/>
+                <element inactive_on_update="false" label="New Deal" value="new_deal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deal Name" max_length="40" name="deal_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Signed Date" max_length="40" name="contract_signed_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Deal Owner" max_length="32" name="deal_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Deal Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Deal Value" max_length="20" name="deal_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Deal Stage" mandatory="true" max_length="40" name="deal_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Proposal" value="proposal"/>
+                <element inactive_on_update="false" label="Opportunity" value="opportunity"/>
+                <element inactive_on_update="false" label="Closed/Lost" value="closed_lost"/>
+                <element inactive_on_update="false" label="Closed/Won" value="closed_won"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description " max_length="400" name="description" type="string"/>
+        <element default="1" function_definition="1" label="Quantity" mandatory="true" max_length="5" name="quantity" read_only="true" type="integer"/>
+        <element label="Deal ID" mandatory="true" max_length="32" name="deal_id" read_only="true" reference="x_1601061_dms_deal" type="reference"/>
+        <index name="index">
+            <element name="assigned_team"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+        <index name="index3">
+            <element name="deal_owner"/>
+        </index>
+    </element>
+</database>
