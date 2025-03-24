@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-15 15:20:17</sys_created_on>
+        <sys_id>35216be5c3d022105d629702b4013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1601061_dms_contract.x_1601061_dms.contract_user</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_security_acl display_value="x_1601061_dms_contract">bd216be5c3d022105d629702b401318e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_35216be5c3d022105d629702b4013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-15 15:20:17</sys_updated_on>
+        <sys_user_role display_value="x_1601061_dms.contract_user" name="x_1601061_dms.contract_user">5121a3e5c3d022105d629702b401317d</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

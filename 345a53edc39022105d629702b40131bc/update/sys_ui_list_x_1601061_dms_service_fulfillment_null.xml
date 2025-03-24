@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1601061_dms_service_fulfillment" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_1601061_dms_service_fulfillment" element="NULL" name="x_1601061_dms_service_fulfillment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b6e47c31022105d629702b4013166</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_id>554b6e47c31022105d629702b4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>completion_date</element>
+            <list_id display_value="x_1601061_dms_service_fulfillment" element="NULL" name="x_1601061_dms_service_fulfillment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b6e47c31022105d629702b4013166</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_id>d54b6e47c31022105d629702b4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>deal_id</element>
+            <list_id display_value="x_1601061_dms_service_fulfillment" element="NULL" name="x_1601061_dms_service_fulfillment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b6e47c31022105d629702b4013166</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_id>594b6e47c31022105d629702b4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>service_type</element>
+            <list_id display_value="x_1601061_dms_service_fulfillment" element="NULL" name="x_1601061_dms_service_fulfillment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b6e47c31022105d629702b4013166</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_id>d94b6e47c31022105d629702b4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="x_1601061_dms_service_fulfillment" element="NULL" name="x_1601061_dms_service_fulfillment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b6e47c31022105d629702b4013166</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_id>5d4b6e47c31022105d629702b4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_1601061_dms_service_fulfillment" element="NULL" name="x_1601061_dms_service_fulfillment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d94b6e47c31022105d629702b4013166</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_id>dd4b6e47c31022105d629702b4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1601061_dms_service_fulfillment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-20 03:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d94b6e47c31022105d629702b4013166</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1601061_dms_service_fulfillment</sys_name>
+            <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+            <sys_update_name>sys_ui_list_x_1601061_dms_service_fulfillment_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-20 03:15:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

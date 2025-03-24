@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="41dfaf25c31422105d629702b40131bd" label="Service Fulfillment" max_length="40" name="x_1601061_dms_service_fulfillment" type="collection">
+        <element label="Completion Date" max_length="40" name="completion_date" reference="x_1601061_dms_deal" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Service Type" max_length="40" name="service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cloud Services" value="cloud_services"/>
+                <element inactive_on_update="false" label="Hardware Services" value="hardware_services"/>
+                <element inactive_on_update="false" label="IT Services" value="it_services"/>
+            </choice>
+        </element>
+        <element label="Deal ID" max_length="32" name="deal_id" reference="x_1601061_dms_deal" type="reference"/>
+        <element choice="1" default="pending" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element label="Start Date" max_length="40" name="start_date" reference="x_1601061_dms_deal" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="deal_id"/>
+        </index>
+    </element>
+</database>

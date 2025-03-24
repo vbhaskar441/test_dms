@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="deal_owner" label="Deal Owner" language="en" table="x_1601061_dms_deal">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>deal_owner</element>
+            <help/>
+            <hint/>
+            <label>Deal Owner</label>
+            <language>en</language>
+            <name>x_1601061_dms_deal</name>
+            <plural>Deal Owners</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-15 15:02:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Deal Owner</sys_name>
+            <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+            <sys_update_name>sys_documentation_x_1601061_dms_deal_deal_owner_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-15 15:02:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

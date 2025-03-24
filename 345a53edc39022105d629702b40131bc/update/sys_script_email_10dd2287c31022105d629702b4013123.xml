@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>user_email_script</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {// Add your code here
+	var u_url = gs.getProperty('glide.servlet.uri') + 'nav_to.do?uri=sys_user.do?sys_id=' + current.sys_id;
+	template.print("<a href= '" + u_url + "'>" + current.getDisplayValue('first_name')+' '+ current.getDisplayValue('last_name') + "</a>"); 
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 03:27:52</sys_created_on>
+        <sys_id>10dd2287c31022105d629702b4013123</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>user_email_script</sys_name>
+        <sys_package display_value="Deals Management Service (DMS)" source="x_1601061_dms">345a53edc39022105d629702b40131bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deals Management Service (DMS)">345a53edc39022105d629702b40131bc</sys_scope>
+        <sys_update_name>sys_script_email_10dd2287c31022105d629702b4013123</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 03:59:27</sys_updated_on>
+    </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>10dd2287c31022105d629702b4013123</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 03:27:51</sys_created_on>
+        <sys_id>3a0e6e87c31022105d629702b401318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 03:27:51</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
